@@ -1,0 +1,17 @@
+h1 {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: #4f4c4c
+
+}
+
+body{
+    background-color: #fac69b;-
+}
+
+a[href="#informacion"],
+a[href="#experiencia"], 
+a[href="#formacion"]{
+    color:#3ec9a4;
+    font-size: 20px;
+}
