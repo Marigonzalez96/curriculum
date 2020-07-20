@@ -11,8 +11,9 @@ body{
 nav a[href="#informacion"], a[href="#experiencia"], a[href="#formacion"]{
     color: #9A8C98;
     font-size: 20px;
-    margin-left: auto;
+    margin-left: 20px;
     align-items: flex-end ;
-    margin-right: 15px; 
+    margin-right: 0px; 
     display: inline-block; 
+    text-decoration: none;
 }
