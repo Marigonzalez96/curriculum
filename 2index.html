@@ -9,16 +9,19 @@
         </head>
     
 <body>
-    <h1>Mariana González</h1>
-    <br>
-    <a href="#informacion"> Información personal</a>
-    <a href="#experiencia"> Experiencia laboral</a>
-    <a href="#formacion"> Formación profesional</a>
+    <h1 style="display: inline-block"> Mariana González</h1>
+
+        <nav style="display:inline-block">                                                                                              ">
+        <a href="#informacion"> Información personal</a>
+        <a href="#experiencia"> Experiencia laboral</a>
+        <a href="#formacion"> Formación profesional</a>
+        </nav>
+   
     
     <div>
     <h2 id="informacion">Información personal</h2>
-    <ul>
-        <li>Edad: 24</li>
+     <ul>
+        <li>Edad: <span id="mi-edad"></span></li>
         <li>Lugar de nacimiento: Ranchos, Buenos Aires</li>
         <li>Celular: 2241577621</li>
         <li>E-mail: margonzalez2753@gmail.com</li>
@@ -45,4 +48,15 @@
 </body>
 
 </html>
+<!-- 
+    Con la etiqueta script cargamos un archivo javascript para agregar 
+    alguna funcionalidad. Se va leyendo todo el archivo HTML y cuando llega al
+    final se encuentra con esta linea y carga el archivo JS. Aumaticamente que
+    lo carga se comienzan a ejecutar las lineas
+-->
+
+<script type="text/javascript" src="js/main.js"></script>
+
+
+
 
