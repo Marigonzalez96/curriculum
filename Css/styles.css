@@ -31,8 +31,8 @@ nav {
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 35px;
     overflow: hidden;
 }
 
@@ -56,8 +56,15 @@ nav li a {
     text-decoration: none;
 }
 
+li a{
+    border-bottom: #f2e9e4;
+    border-radius: 15px;
+    box-shadow: #9a8c98;
+
+    
+}
+
 li a:hover {  /*a:hover para agregar efectos cuando el mouse pasa por el elemento*/
     text-decoration: underline;
-    color: #54566f;
     background-color: #f2e9e4;
 }
