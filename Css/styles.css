@@ -56,6 +56,8 @@ nav li a {
     text-decoration: none;
 }
 
-li a:hover {
+li a:hover {  /*a:hover para agregar efectos cuando el mouse pasa por el elemento*/
     text-decoration: underline;
+    color: #54566f;
+    background-color: #f2e9e4;
 }
