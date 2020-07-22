@@ -18,8 +18,8 @@ nav a[href="#informacion"], a[href="#experiencia"], a[href="#formacion"] {
     color: #7d5457;
 }
 
-nav a :hover { /* efectos del mouse cuando pasa x el elemento */
-    text-decoration: underline; /*NO FUNCIONA*/
+nav a:hover {
+    text-decoration: underline;
 }
 
 header, nav{
