@@ -1,19 +1,19 @@
 header {
-
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-color: #54566F
-
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: #54566f;
 }
-/* estilos generales*/ 
-body{
-    background-color:  #F2E9E4 ;
+/* estilos generales*/
+body {
+    background-color: #f2e9e4;
     font-family: Arial, Helvetica, sans-serif;
-    color: #9A8C98;
+    color: #9a8c98;
     font-size: 20px;
 }
 /*estilos de nav*/
 
-nav a[href="#informacion"], a[href="#experiencia"], a[href="#formacion"] {
+nav a[href="#informacion"],
+a[href="#experiencia"],
+a[href="#formacion"] {
     text-decoration: none;
     color: #7d5457;
 }
@@ -22,8 +22,40 @@ nav a:hover {
     text-decoration: underline;
 }
 
-header, nav{
+header,
+nav {
     width: 100%; /*with100% para que ocupe todo el ancho de la pag*/
-    background-color: #9A8C98;
+    background-color: #9a8c98;
     margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li header {
+    font-size: 30px;
+    position: relative;
+    left: 10px;
+    top: 6px;
+    margin-right: 30px;
+}
+
+nav li a {
+    display: block;
+    color: #7d5457;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
 }
